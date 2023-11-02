@@ -110,3 +110,8 @@ pre{
 .button-json-container{
   padding: 24px 0px;
 }
+
+.hyperlink{
+  text-align: end;
+  font-size: 14px;
+}
