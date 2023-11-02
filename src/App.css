@@ -1,38 +1,112 @@
-.App {
+.container {
+  padding: 142px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+.table-header {
+  justify-content: start;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col,
+.col-12 {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col-2 {
+  width: 20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.col-4 {
+  width: 33.333%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.container-table {
+  border: 2px solid #D3D3D3;
+  text-align: center;
+  margin: 8px;
+}
+
+.profile-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.d-flex {
   display: flex;
-  flex-direction: column;
+}
+
+.items-center {
   align-items: center;
+}
+
+.name-header {
+  margin-left: 12px;
+}
+
+.dropdwon {
+  width: 80%;
+  font-size: 12px;
+  min-height: 24px;
+}
+
+.button {
+  padding: 12px;
+  background-color: #454545;
+  color: #fff;
+  min-width: 128px;
+  border-radius: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
+}
+
+.button:active {
+  opacity: 0.8;
+  border: 0;
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container-json-view {
+  /* border: 2px solid #D3D3D3; */
+  /* margin: 8px; */
+}
+
+.justify-content-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.json-container{
+  border: 2px solid #D3D3D3;
+
+}
+pre{
+  padding: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-json-container{
+  padding: 24px 0px;
 }
